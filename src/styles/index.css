@@ -1,4 +1,4 @@
-/* /* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -104,4 +104,4 @@ button:active {
 /* Left-side options (green) */
 .node-option:nth-child(even):hover span[title*="Left"] {
   animation: pulse-left 1.5s ease-in-out infinite;
-}  */
+}
