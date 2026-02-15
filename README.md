@@ -127,30 +127,21 @@ src/
 │   └── flowValidation.ts   # Graph algorithms
 ├── types/                  # TypeScript definitions
 └── styles/                 # CSS modules
+├── App.tsx                 # App entry
+├── main.tsx                # Main entry
+
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React 18 + TypeScript 5
-- **Build:** Vite 5
+- **Frontend:** React 19 + TypeScript 5
+- **Build:** Vite 7
+- **Design:** Figma
 - **Graphics:** Custom SVG (no external libraries)
 - **State:** React Hooks (immutable patterns)
 - **Deployment:** Vercel
-
----
-
-## ⌨️ Keyboard Shortcuts
-
-| Shortcut       | Action     |
-| -------------- | ---------- |
-| `Ctrl+Z`       | Undo       |
-| `Ctrl+Y`       | Redo       |
-| `Ctrl+Scroll`  | Zoom       |
-| `Ctrl+0`       | Reset zoom |
-| `Alt+Click`    | Pan canvas |
-| `Double-Click` | Edit node  |
 
 ---
 
@@ -180,14 +171,6 @@ src/
 ✅ **Command Pattern** - Immutable state management  
 ✅ **60fps Performance** - Handles 100+ nodes  
 ✅ **Touch Optimized** - Native mobile gestures
-
----
-
-## 📱 Browser Support
-
-| Chrome  | Firefox | Safari | Edge    | Mobile         |
-| ------- | ------- | ------ | ------- | -------------- |
-| ✅ 120+ | ✅ 121+ | ✅ 17+ | ✅ 120+ | ✅ iOS/Android |
 
 ---
 
@@ -225,39 +208,9 @@ src/
 - **Day 2:** Core rendering & SVG connections
 - **Day 3:** Interaction & state management
 - **Day 4:** Validation & mobile optimization
-- **Day 5:** Testing & deployment
+- **Day 6 -7:** Testing & deployment
 
-**Commit Strategy:** 15+ meaningful commits showing iterative progress
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Please open an issue or submit a PR.
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-MIT License - feel free to use this project for learning or commercial purposes.
-
----
-
-<div align="center">
-
-**[⬆ Back to Top](#supportflow-visual-builder)**
-
-Built with ❤️ for SupportFlow AI
-
-**[View Live Demo →](https://support-flow-visual-builder.vercel.app/)**
-
-</div>
 ```
 
 Just copy everything above and paste it into your `README.md` file! It's ready to go. 🚀
+```
