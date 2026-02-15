@@ -212,5 +212,4 @@ src/
 
 ```
 
-Just copy everything above and paste it into your `README.md` file! It's ready to go. 🚀
 ```
