@@ -3,33 +3,16 @@
 
 > A professional visual decision tree editor for building and testing customer support chatbot flows.
 
-<div align="center">
-
-[![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge)](https://support-flow-visual-builder.vercel.app/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-
-**[Live Demo](https://support-flow-visual-builder.vercel.app/)** · **[Design System](https://www.figma.com/design/JtGyXZFuJ486CKOZUWq0j6/SupportFlow-Visual-Builder-Project-UI)**
-
-</div>
-
 ---
 
-## 🎯 Features
-
-<table>
-<tr>
-<td width="50%">
+## Features
 
 ### Core Functionality
 
-- 🎨 **Visual Flowchart** - Drag-and-drop interface
-- ✏️ **Inline Editing** - Double-click to edit nodes
-- ▶️ **Preview Mode** - Test conversations live
-- 📱 **Mobile Ready** - Touch & pinch-to-zoom
-
-</td>
-<td width="50%">
+- **Visual Flowchart** - Drag-and-drop interface
+- **Inline Editing** - Double-click to edit nodes
+- **Preview Mode** - Test conversations live
+- **Mobile Ready** - Touch & pinch-to-zoom
 
 ### Advanced Features
 
@@ -37,10 +20,6 @@
 - ↩️ **Undo/Redo** - Full edit history (Ctrl+Z/Y)
 - ✅ **Flow Validation** - Detect errors in real-time
 - 💾 **Export/Import** - Share flows as JSON
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -60,7 +39,7 @@ npm run build
 
 ---
 
-## 🎯 Wildcard Features
+## Wildcard Features
 
 I implemented **five interconnected features** that make this production-ready:
 
@@ -96,7 +75,7 @@ Download flows as formatted JSON for version control and team collaboration.
 
 ---
 
-## 💡 Why It Matters
+## Why It Matters
 
 | Problem                        | Solution              | Impact                |
 | ------------------------------ | --------------------- | --------------------- |
@@ -108,7 +87,7 @@ Download flows as formatted JSON for version control and team collaboration.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -134,7 +113,7 @@ src/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React 19 + TypeScript 5
 - **Build:** Vite 7
@@ -145,7 +124,7 @@ src/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 **Color Coding:**
 
@@ -163,7 +142,7 @@ src/
 
 ---
 
-## 🔬 Technical Highlights
+## Technical Highlights
 
 ✅ **No External Graph Libraries** - Custom SVG implementation  
 ✅ **100% TypeScript** - Full type safety  
@@ -174,7 +153,7 @@ src/
 
 ---
 
-## 📖 Usage Example
+## Usage Example
 
 ```typescript
 // Flow data structure
@@ -200,7 +179,7 @@ src/
 
 ---
 
-## 📝 Development Process
+## Development Process
 
 **Timeline:** 22 hours over 5 days
 
