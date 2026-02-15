@@ -40,7 +40,7 @@ export const Toolbar: React.FC<ToolbarProps> = ({
           justifyContent: "space-between",
           alignItems: "center",
           backgroundColor: "#0a0a0a",
-          flexWrap: "wrap",
+          flexWrap: "nowrap",
           gap: "12px",
           //   position should be sticky only on desktop, on mobile it should scroll with content
           //   how do we conditionally apply position: sticky based on screen size? We can use a media query in CSS for that
@@ -50,7 +50,15 @@ export const Toolbar: React.FC<ToolbarProps> = ({
           zIndex: 100,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+        <div
+          style={{
+            display: "flex",
+            minWidth: 0,
+            flex: 1,
+            alignItems: "center",
+            gap: "8px",
+          }}
+        >
           <img
             src="/logo.png"
             alt="SupportFlow Logo"
@@ -244,7 +252,7 @@ export const Toolbar: React.FC<ToolbarProps> = ({
             }}
             className="mobile-menu-toggle"
           >
-            ☰
+            {showMobileMenu ? "✕" : "☰"}
           </button>
         </div>
       </div>

@@ -40,11 +40,14 @@ export const ValidationPanel: React.FC<ValidationPanelProps> = ({
             ? "200px"
             : "400px",
         overflowY: "auto",
+        // dont show on mobile and smaller devices
+        display: window.innerWidth < 500 ? "none" : "block",
+
         backgroundColor: "#1a1a1a",
         border: "2px solid #f59e0b",
         borderRadius: "8px",
         padding: isCollapsed ? "8px 12px" : "16px",
-        zIndex: 90,
+        zIndex: 50,
         boxShadow: "0 4px 24px rgba(0, 0, 0, 0.5)",
       }}
     >
