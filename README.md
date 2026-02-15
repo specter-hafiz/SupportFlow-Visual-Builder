@@ -16,14 +16,14 @@
 
 ### Advanced Features
 
-- 🔍 **Zoom & Pan** - Navigate large flows easily
-- ↩️ **Undo/Redo** - Full edit history (Ctrl+Z/Y)
-- ✅ **Flow Validation** - Detect errors in real-time
-- 💾 **Export/Import** - Share flows as JSON
+- Zoom & Pan - Navigate large flows easily
+- Undo/Redo - Full edit history (Ctrl+Z/Y)
+- Flow Validation - Detect errors in real-time
+- Export/Import - Share flows as JSON
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -188,6 +188,10 @@ src/
 - **Day 3:** Interaction & state management
 - **Day 4:** Validation & mobile optimization
 - **Day 6 -7:** Testing & deployment
+
+## Live Project
+
+https://support-flow-visual-builder.vercel.app/
 
 ```
 
